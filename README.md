@@ -69,6 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### In This Code  
+  1) Hooks --> useState
+  2) import axios library
+  3) api --> https://api.github.com/users/
 ### Final Out is There
 
 ![Screenshot (76)](https://github.com/user-attachments/assets/fe2ce6b9-179e-4f03-9967-7b5053d4c170)
