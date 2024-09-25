@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #94FFD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.container {
+    border-radius: 52px;
+    background: #94FFD8;
+    box-shadow:  -11px -11px 22px #65ae94, 11px 11px 22px #c1ffff;
+    height: 300px;
+    width: 555px;
+    padding: 10px;
+    margin: 10px;    
+}
+.container h1 {
+    text-align: center;
+}
+.container h1:hover {
+    transform: scale(1.1);
+}
+.forminput input {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 52px;
+    box-shadow: -27px -27px 53px #7abfa6, 27px 27px 53px #adffd5;
+    font-weight: bolder;
+    padding: 10px;
+}
+.forminput input::placeholder {
+    color: #666;
+    font-weight: bold;
+}
+.forminput input:focus {
+    outline: none;
+}
+
+/* Search Data CSS */
+  .card {
+    max-width: 100%;
+    background-color: #A3D8FF;
+    border-radius: 52px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+.avatar {
+    border-radius: 50%;
+    border: 4px solid #FDFFC2;
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+.avatar:hover {
+    transform: scale(1.1);
+}
+.userinfo {
+    color: #333;
+    margin-left: 1rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.userinfo h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+.userinfo p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.userinfo ul {
+    list-style-type: none;
+    display: grid;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+    margin-top: 1rem;
+}
+.userinfo ul li {
+    display: flex;
+    align-items: center;
+}
+.userinfo ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: #007bff;
+}
+.repo {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff1500;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    border-radius: 9px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.repo:hover {
+    background-color: #cc0c00;
+    transform: scale(1.05);
+}
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .forminput {
+        max-width: 400px;
+    }
+}
