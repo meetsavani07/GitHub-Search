@@ -77,9 +77,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
       ● Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints.         This library is very useful to perform CRUD operations.
   3) api --> https://api.github.com/users/ \
       ● This Api Only Not Display Followers Following Repos, but this aip display which language use large code
-        how many Star have in this Repos, how many Branch in this code, when last time push this Repos. All            This Work can perform in this code.
+        how many Star have in this Repos, how many Branch in this code, when last time push this Repos. All            This Work can perform in this code. \
       ● I'm Only use how many Followers Following Repos, i'm not use star / branch / last time push extra
-        content.
+        content. \
       ● You can Add This Extra Content I am upload this content code in few day.
 
 ### Final Out is There
