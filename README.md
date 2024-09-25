@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+  scr/App.js
 
 ### `npm start`
 
@@ -71,8 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### In This Code  
   1) Hooks --> useState
+      ● React Hooks provide functional components with the ability to use states and manage side effects. They         were first introduced in React 16.8, and allow developers to hook into the state and other React               features without having to write a class. They provide a cleaner and more concise way to handle state          and side effects in React applications.  
   2) import axios library
+      ● Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints.         This library is very useful to perform CRUD operations.
   3) api --> https://api.github.com/users/
-### Final Out is There
+      ● This Api Only Not Display Followers Following Repos, but this aip display which language use large code
+        how many Star have in this Repos, how many Branch in this code, when last time push this Repos. All            This Work can perform in this code.
+      ● I'm Only use how many Followers Following Repos, i'm not use star / branch / last time push extra
+        content.
+      ● You can Add This Extra Content I am upload this content code in few day.
 
-![Screenshot (76)](https://github.com/user-attachments/assets/fe2ce6b9-179e-4f03-9967-7b5053d4c170)
+### Final Out is There
+![weboutput](https://github.com/user-attachments/assets/0988a13f-8a37-4d2d-8eb1-e8ba2453b906)
+
+![searchoutput](https://github.com/user-attachments/assets/91fa53f0-1d0f-441c-b629-ac02bb73142b)
